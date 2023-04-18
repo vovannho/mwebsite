@@ -18,6 +18,7 @@ export const Button = ({text, rounded, roundedNone, variant = 'fill', size='smal
         "rounded-none": roundedNone,
         "bg-black text-[#fff] hover:bg-blue-300 hover:text-black": variant === 'fill',
         "border border-black text-black hover:bg-blue-300": variant === 'outline',
+        "bg-green-500  text-[#fff] hover:bg-green-700": variant === 'green',
 
     })}>
         {text}

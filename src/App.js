@@ -7,7 +7,7 @@ import Artical from "./pages/Artical";
 
 function App() {
   return (
-    <div className="w-full h-screen xl:px-[120px] lg:px-[30px] py-[40px] bg-[#ffffff] ">
+    <div className="w-full xl:px-[120px] px-[20px] py-[40px] bg-[#ffffff] ">
       <Routes>
         <Route path="/" element={ <Home/> } />
         <Route path="/About" element={ <About/> } />
